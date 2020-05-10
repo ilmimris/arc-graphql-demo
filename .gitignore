@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # prisma2 migration history
-./prisma/migrations
+prisma/migrations
