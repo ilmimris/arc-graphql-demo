@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# prisma2 migration history
+./prisma/migrations
