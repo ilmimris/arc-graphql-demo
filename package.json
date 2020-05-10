@@ -1,0 +1,32 @@
+{
+  "name": "arc-graphql-demo",
+  "version": "1.0.0",
+  "description": "ARC Weekly Webinar #7 | Intro to GraphQL (demo part)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilmimris/arc-graphql-demo.git"
+  },
+  "keywords": [
+    "graphql",
+    "apollographql",
+    "prisma"
+  ],
+  "author": "Muhammad Rafiul Ilmi Syarifudin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilmimris/arc-graphql-demo/issues"
+  },
+  "homepage": "https://github.com/ilmimris/arc-graphql-demo#readme",
+  "dependencies": {
+    "@prisma/client": "^2.0.0-beta.4",
+    "apollo-server": "^2.13.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.0.0-beta.4"
+  }
+}
