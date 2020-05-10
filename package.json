@@ -4,6 +4,8 @@
   "description": "ARC Weekly Webinar #7 | Intro to GraphQL (demo part)",
   "main": "src/index.js",
   "scripts": {
+    "migrate": "npx prisma migrate save --experimental && npx prisma migrate up --experimental",
+    "generate": "npx prisma generate",
     "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
